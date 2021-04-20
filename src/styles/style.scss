@@ -51,3 +51,22 @@
   display: flex;
   justify-content: center;
 }
+
+.navbar-item {
+  color: white;
+}
+
+#navItemAbout:focus {
+  color: #fff066;
+  background: #0a0a0a;
+}
+
+#navItemHello:focus {
+  color: #5271ff;
+  background: #0a0a0a;
+}
+
+#navItemWork:focus {
+  color: #ff66c4;
+  background: #0a0a0a;
+}
