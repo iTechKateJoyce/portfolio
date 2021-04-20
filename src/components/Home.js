@@ -9,11 +9,10 @@ export default function Home() {
       <section className="hero is-large">
         <div className="hero-body">
           <div className="">
-            <p className="title has-text-white">Hi, I'm Kate 👋</p>
-            <p className="subtitle hero has-text-light">a London based junior developer</p>
-            <Link to={"/Projects"} className="button is-rounded" >View Work</Link>
-            <Link to={"/Contact"} className="button is-rounded">Reach out</Link>
-            
+            <h1 id="heroTitle" className="title has-text-white">Hi, I'm Kate 👋</h1>
+            <h2 id="heroSubtitle" className="subtitle hero has-text-light">a London based junior developer</h2>
+            <Link to={"/Projects"} className="button mr-1" >View Work</Link>
+            <Link to={"/Contact"} className="button">Reach out</Link>
           </div>
         </div>
       </section>

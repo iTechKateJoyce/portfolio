@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export default function Navbar() {
   return <div>
     <nav className="navbar is-black">
-    <Link className="navbar-item" to={'/'}>
+    <Link id="navItemHome" className="navbar-item" to={'/'}>
       <img src="../images/logo.png"/>
     </Link>
       <Link id="navItemAbout" className="navbar-item" to={'/About'}>About</Link>

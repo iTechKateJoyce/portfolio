@@ -8,6 +8,7 @@ import About from './components/About'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 // ? Styles!
 import 'bulma'
@@ -23,6 +24,7 @@ const App = () => {
       <Route path="/Projects" component={Projects} />
       <Route path="/Contact" component={Contact}/>
     </Switch>
+    <Footer />
   </BrowserRouter>
 }
 

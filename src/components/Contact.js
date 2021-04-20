@@ -11,7 +11,7 @@ export default function Contact() {
         <div className="feild">
           <label className="label">Name</label>
           <div className="control">
-            <input className="input" type="text" placeholder="e.g. Gordon Ramsay" />
+            <input className="input" type="text" placeholder="Gordon Ramsay" />
           </div>
         </div>
         <div className="feild">
