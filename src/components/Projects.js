@@ -1,4 +1,8 @@
 import React from 'react'
+import dreamland from '../images/Dreamland.png'
+import hackasnack from '../images/Hack-a-snack-image.png'
+import insbaration from '../images/insbaration.png'
+import frogger from '../images/frogger.png'
 
 export default function Projects() {
   return <section id="projects" className="section has-text-light has-text-justified">
@@ -16,7 +20,7 @@ export default function Projects() {
       </div>
       <div className="column is-half appImage">
         {/*project imagery here, update to GIF and svg iphone icon */}
-        <img className="dreamlandMobile"src="../images/Dreamland.png"/>
+        <img className="dreamlandMobile"src={dreamland}/>
       </div>
     </section>
 
@@ -32,7 +36,7 @@ export default function Projects() {
       </div>
       <div className="column is-half">
         {/*project imagery here update with svg macbook icon and GIF screen */}
-        <img src="../images/Hack-a-snack-image.png"/>
+        <img src={hackasnack}/>
       </div>
     </section>
 
@@ -48,7 +52,7 @@ export default function Projects() {
       </div>
       <div className="column is-half">
         {/*project imagery here update with svg macbook icon and GIF screen */}
-        <img src="../images/insbaration.png"/>
+        <img src={insbaration}/>
       </div>
     </section>
 
@@ -64,7 +68,7 @@ export default function Projects() {
       </div>
       <div className="column is-half">
         {/*project imagery here update with svg macbook icon and GIF screen */}
-        <img src="../images/frogger.png"/>
+        <img src={frogger}/>
       </div>
     </section>
   </section>

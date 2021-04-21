@@ -1,11 +1,10 @@
 import React from 'react'
-// import profile from '../images/profile.jpg';
-// import profile from '../images/profile.jpeg'
+import profile from '../images/profile.jpeg'
 
 export default function About() {
   return <section id="About" className="columns section is-medium">
     <div className="column is-one-third">
-      <img id="profile" src="../images/profile.jpeg" />
+      <img id="profile" src={profile} />
       {/* <div>
         <a>LinkedIn</a>
         <a>GitHub</a>
