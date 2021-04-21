@@ -1,5 +1,6 @@
 import React from 'react'
-import skills from '../images/skills.png'
+import skills from 'src/images/Skills.png'
+
 
 export default function Skills() {
   return <section id="skills" className="section">
