@@ -1,6 +1,6 @@
 import React from 'react'
 // import profile from '../images/profile.jpg'
-import profile from '/images/profile.jpg'
+// import profile from 'portfolio/src/images/profile.jpg'
 import profile from '../images/profile.jpg'
 
 export default function About() {
