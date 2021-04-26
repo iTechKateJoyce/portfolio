@@ -1,5 +1,6 @@
 import React from 'react'
-import profile from '../images/profile.jpeg'
+// import profile from 'images/profile.jpg'
+import profile from 'src/images/profile.jpg'
 
 export default function About() {
   return <section id="About" className="columns section is-medium">
