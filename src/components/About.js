@@ -1,7 +1,7 @@
 import React from 'react'
 // import profile from '../images/profile.jpg'
 // import profile from 'portfolio/src/images/profile.jpg'
-import profile from '../images/profile.jpg'
+import profile from '../images/profile.jpeg'
 
 export default function About() {
   return <section id="About" className="columns section is-medium">
