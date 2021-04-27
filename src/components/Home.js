@@ -17,7 +17,7 @@ export default function Home() {
         </div>
       </section>
     </header>
-    <About />
-    <Skills />
+    {/* <About /> */}
+    {/* <Skills /> */}
   </main>
 }
