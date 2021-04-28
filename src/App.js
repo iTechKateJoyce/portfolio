@@ -16,13 +16,6 @@ import './styles/style.scss'
 const App = () => {
   return <BrowserRouter>
     <NavBar />
-    {/* <Switch>
-      <Route exact path="/" component={Home}/>
-      <Route path="/About" component={About}/>
-      <Route path="/Skills" component={Skills}/>
-      <Route path="/Projects" component={Projects} />
-      <Route path="/Contact" component={Contact}/>
-    </Switch> */}
     <Home />
     <About />
     <Skills />

@@ -14,9 +14,7 @@
 .hero-body {
   background: black;
   background-image: url('https://github.com/kate1562/portfolio/blob/8c4cf89c86270b5e28c3fc8830b55d9d421a638f/waves.png?raw=true');
-  // background-image:
-  //   // linear-gradient(#3a3a3a, #c4c4c4),
-  //   url('/src/images/hero.png');
+  background-repeat:no-repeat;
 }
 #heroTitle{
   font-size: 4rem;
@@ -32,8 +30,7 @@
 
 //! About
 #profile{
-  // border-radius: 50%;
-  width: 60%;
+  width: 70%;
   box-shadow: 5px 10px #ff66c4;
 }
 
@@ -65,10 +62,23 @@
 
 .gradient {
   background: linear-gradient(#ff66c4, #5271ff);
+  padding: 30px;
 }
 
 .form {
   background: white;
+  padding: 30px;
+}
+
+.logos {
+  padding-top: 60px;
+}
+.input {
+  margin-top: 15px;
+}
+
+.contactIcon {
+  width: 20%;
 }
 
 //! Navbar 
