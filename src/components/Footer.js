@@ -5,10 +5,6 @@ export default function Footer() {
     <div className="is-flex-direction-column content has-text-centered">
       <hr />
       <p>© Kate Joyce 2021</p>
-      <section className="is-flex-direction-row">
-        <p><a className="has-text-white" target="blank" href="https://github.com/kate1562"><strong>GitHub</strong></a></p>
-        <p><a className="has-text-white" target="blank" href="https://www.linkedin.com/in/kate-joyce/"><strong>LinkedIn</strong></a></p>
-      </section>
     </div>
   </footer>
 }

@@ -4,7 +4,7 @@ import logo from '../images/logo.png'
 export default function Navbar() {
   return <div>
     <nav className="navbar is-black">
-    <a id="navItemHome" className="navbar-item" href={'/'}>
+    <a id="navItemHome" className="navbar-item" href={'/portfolio'}>
       <img src={logo}/>
     </a>
       <a id="navItemAbout" className="navbar-item" href={'#about'}>About</a>

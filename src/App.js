@@ -4,13 +4,12 @@ import { BrowserRouter } from 'react-router-dom'
 import NavBar from './components/Navbar'
 import Home from './components/Home'
 import About from './components/About'
-import Skills from './components/Skills'
-import Interests from './components/Interests'
+// import Skills from './components/Skills'
+// import Interests from './components/Interests'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 
-// ? Styles!
 import 'bulma'
 import './styles/style.scss'
 
@@ -19,8 +18,8 @@ const App = () => {
     <NavBar />
     <Home />
     <About />
-    <Skills />
-    <Interests />
+    {/* <Skills /> */}
+    {/* <Interests /> */}
     <Projects />
     <Contact />
     <Footer />

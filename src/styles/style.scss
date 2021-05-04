@@ -4,6 +4,11 @@
   color: white;
 }
 
+#about, #skills, #projects {
+  background: black;
+  font-size: 1.5em;
+  margin-bottom: 0;
+}
 .footer, #interests {
   background: black;
 }
@@ -48,17 +53,7 @@
   align-items: center;
 }
 
-
 //! Interests
-// .card{
-//   background: red;
-// }
-
-#musicImg, #foodImg, #yogaImg {
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg7Et9lCwvZ2beKB-jZhnygbjJHzPwJmC40A&usqp=CAU");
-  background-image: cover;
-  // width: 300px;
-}
 
 .interestsContainer {
   display: flex;
@@ -68,15 +63,10 @@
 
 .card {
   width:300px;
+  font-size: 1rem;
 }
 
 //!Projects
-
-#about, #skills, #projects {
-  background: black;
-  font-size: 1.5em;
-  margin-bottom: 0;
-}
 
 .dreamlandMobile {
   height: 450px;
@@ -150,6 +140,5 @@
   justify-content: space-between;
   padding: 15px;
 }
-
 
 //! Footer
