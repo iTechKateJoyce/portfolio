@@ -6,7 +6,7 @@ import frogger from '../images/frogger.png'
 
 export default function Projects() {
   return <section id="projects" className="section has-text-light has-text-justified">
-    <h1 className="title is-1">Projects</h1>
+    <h1 className="title is-2 has-text-centered">Projects</h1>
 
     <section id="dreamland" className="section is-small columns">
       <div className="column is-half">

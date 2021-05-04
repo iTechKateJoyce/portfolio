@@ -2,8 +2,8 @@ import React from 'react'
 import profile from '../images/profile.jpeg'
 
 export default function About() {
-  return <section id="About" className="columns section is-small is-vcentered">
-    <div className="column is-one-third">
+  return <section id="about" className="columns section is-small is-vcentered">
+    <div className="column is-one-third profileImgContainer">
       <img id="profile" className="" src={profile} />
     </div>
     <div className="column is-two-thirds">
