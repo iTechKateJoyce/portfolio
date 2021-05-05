@@ -39,7 +39,8 @@
     "react-router-dom": "^5.2.0",
     "react-spinners": "^0.10.4",
     "react-svg": "^13.0.3",
-    "styled-components": "^5.2.1"
+    "styled-components": "^5.2.1",
+    "svg-react-loader": "^0.4.6"
   },
   "homepage": "https://kate1562.github.io/portfolio"
 }

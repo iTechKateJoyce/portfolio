@@ -20,7 +20,7 @@ module.exports = env => {
         { test: /\.css$/, use: ['style-loader', 'css-loader'] },
         { test: /\.s(a|c)ss$/, use: ['style-loader', 'css-loader', 'sass-loader'] },
         { test: /\.(png|jpe?g|gif)$/i, use: 'file-loader' },
-        { test: /\.svg$/, use: ['@svgr/webpack'] }
+        { test: /\.svg$/i, use: ['svg-react-loader'] }
       ]
     },
     devServer: {
