@@ -143,6 +143,19 @@
 
 //! Skills
 
+.icon{
+  height: 7.5rem;
+  width: 4.5rem;
+}
 
+.skillsContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.comfortable, .beginner, .learning {
+  display: flex;
+  justify-content: space-evenly;
+}
 
 //! Footer

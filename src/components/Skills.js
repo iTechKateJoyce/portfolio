@@ -17,7 +17,7 @@ import Nodejs from '../icons/Node.js.svg'
 import Npm from '../icons/Npm.svg'
 import PostgreSQL from '../icons/PostgreSQL.svg'
 import Python from '../icons/Python.svg'
-import ReactIcon from '../icons/ReactIcon.svg' 
+import ReactIcon from '../icons/ReactIcon.svg'
 import Sass from '../icons/Sass.svg'
 import VSCode from '../icons/VSCode.svg'
 import Webpack from '../icons/Webpack.svg'
@@ -26,7 +26,7 @@ import Express from '../icons/Express.svg'
 export default function Skills() {
   return <section id="skills" className="section is-small has-text-centered">
     <h1 className="title is-2">Skills</h1>
-    <div>
+    <div className="skillsContainer">
       <div className="comfortable">
         <Bulma className="icon" />
         {/* <Babel /> */}
@@ -36,22 +36,27 @@ export default function Skills() {
         <Git className="icon" />
         <GitHub className="icon" />
         <Heroku className="icon" />
-        <HTML5 className="icon" />
+
       </div>
-      <div>
+      <div className="beginner">
+        <HTML5 className="icon" />
         <JavaScript className="icon" />
         <Marshmallow className="icon" />
         <MongoDB className="icon" />
         <MySQL className="icon" />
         <Nodejs className="icon" />
+
+      </div>
+      <div className="learning">
         <PostgreSQL className="icon" />
-        <Npm className="icon"/>
+        <Npm className="icon" />
         <Python className="icon" />
         <ReactIcon className="icon" />
         <Sass className="icon" />
         <VSCode className="icon" />
         <Webpack className="icon" />
-        <Express className="icon"/>
+        <Express className="icon" />
+
       </div>
 
 
