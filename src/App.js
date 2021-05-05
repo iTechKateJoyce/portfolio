@@ -16,12 +16,12 @@ import './styles/style.scss'
 const App = () => {
   return <BrowserRouter>
     <NavBar />
-    <Home />
-    <About />
+      <Home />
+      <About />
     {/* <Skills /> */}
     {/* <Interests /> */}
-    <Projects />
-    <Contact />
+      <Projects />
+      <Contact />
     <Footer />
   </BrowserRouter>
 }
