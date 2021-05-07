@@ -28,40 +28,102 @@ export default function Skills() {
     <h1 className="title is-2">Skills</h1>
     <div className="skillsContainer">
       <div className="comfortable">
-        <Bulma className="icon" />
-        {/* <Babel /> */}
-        <Canva className="icon" />
-        {/* <CSS3 /> */}
-        <Flask className="icon" />
-        <Git className="icon" />
-        <GitHub className="icon" />
-        <Heroku className="icon" />
-
+        <div className="iconWrapper">
+          <Bulma className="icon" />
+          <div className="iconLabel">Bulma</div>
+        </div>
+        {/* <div className="iconWrapper">
+          <Babel />
+          <div className="iconLabel">Babel</div>
+        </div> */}
+        <div className="iconWrapper">
+          <Canva className="icon" />
+          <div className="iconLabel">Canva</div>
+        </div>
+        {/* <div className="iconWrapper">
+          <CSS3 />
+          <div className="iconLabel">CSS3</div>
+        </div> */}
+        <div className="iconWrapper">
+          <Flask className="icon" />
+          <div className="iconLabel">Flask</div>
+        </div>
+        <div className="iconWrapper">
+          <Git className="icon" />
+          <div className="iconLabel">Git</div>
+        </div>
+        <div className="iconWrapper">
+          <GitHub className="icon" />
+          <div className="iconLabel">GitHub</div>
+        </div>
+        <div className="iconWrapper">
+          <Heroku className="icon" />
+          <div className="iconLabel">Heroku</div>
+        </div>
+        {/* //! row 2 */}
       </div>
       <div className="beginner">
-        <HTML5 className="icon" />
-        <JavaScript className="icon" />
-        <Marshmallow className="icon" />
-        <MongoDB className="icon" />
-        <MySQL className="icon" />
-        <Nodejs className="icon" />
-
+        <div className="iconWrapper">
+          <HTML5 className="icon" />
+          <div className="iconLabel">HTML5</div>
+        </div>
+        <div className="iconWrapper">
+          <JavaScript className="icon" />
+          <div className="iconLabel">JavaScript</div>
+        </div>
+        <div className="iconWrapper">
+          <Marshmallow className="icon" />
+          <div className="iconLabel">Marshmallow</div>
+        </div>
+        <div className="iconWrapper">
+          <MongoDB className="icon" />
+          <div className="iconLabel">MongoDB</div>
+        </div>
+        <div className="iconWrapper">
+          <MySQL className="icon" />
+          <div className="iconLabel">MySQL</div>
+        </div>
+        <div className="iconWrapper">
+          <Nodejs className="icon" />
+          <div className="iconLabel">Node.js</div>
+        </div>
+        {/* //!row 3 */}
       </div>
       <div className="learning">
-        <PostgreSQL className="icon" />
-        <Npm className="icon" />
-        <Python className="icon" />
-        <ReactIcon className="icon" />
-        <Sass className="icon" />
-        <VSCode className="icon" />
-        <Webpack className="icon" />
-        <Express className="icon" />
-
+        <div className="iconWrapper">
+          <PostgreSQL className="icon" />
+          <div className="iconLabel">PostgreSQL</div>
+        </div>
+        <div className="iconWrapper">
+          <Npm className="icon" />
+          <div className="iconLabel">Npm</div>
+        </div>
+        <div className="iconWrapper">
+          <Python className="icon" />
+          <div className="iconLabel">Python</div>
+        </div>
+        <div className="iconWrapper">
+          <ReactIcon className="icon" />
+          <div className="iconLabel">React</div>
+        </div>
+        <div className="iconWrapper">
+          <Sass className="icon" />
+          <div className="iconLabel">Sass</div>
+        </div>
+        <div className="iconWrapper">
+          <VSCode className="icon" />
+          <div className="iconLabel"></div>
+        </div>
+        <div className="iconWrapper">
+          <Webpack className="icon" />
+          <div className="iconLabel">Webpack</div>
+        </div>
+        <div className="iconWrapper">
+          <Express className="icon" />
+          <div className="iconLabel">Express</div>
+        </div>
       </div>
-
-
     </div>
-
   </section>
 }
 

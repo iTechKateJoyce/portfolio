@@ -148,6 +148,29 @@
   width: 4.5rem;
 }
 
+.iconWrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#skills .color {
+  fill: rgb(255, 242, 3);
+  // background:red;
+  // fill:red;
+}
+
+.color:hover {
+  fill: rgb(255, 3, 218);
+}
+
+.iconLabel{
+  position: absolute;
+  font-size: 1rem;
+  color: white;
+  opacity: 0;
+}
+
 .skillsContainer {
   display: flex;
   flex-direction: column;
