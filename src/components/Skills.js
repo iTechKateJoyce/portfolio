@@ -1,9 +1,14 @@
 import React from 'react'
 
-// import Babel from '../icons/Babel.svg'
+
+// import { Icon, InlineIcon } from '@iconify/react';
+// import fileTypeBabel2 from '@iconify-icons/vscode-icons/file-type-babel2';
+
+
+import Babel from '../icons/Babel.svg'
 import Bulma from '../icons/Bulma.svg'
 import Canva from '../icons/Canva.svg'
-// import CSS3 from '../icons/CSS 3.svg' //rename in canva clash
+import CSS3 from '../icons/css3.svg' //rename in canva clash
 import Flask from '../icons/Flask.svg'
 import Git from '../icons/Git.svg'
 import GitHub from '../icons/GitHub.svg'
@@ -23,34 +28,54 @@ import VSCode from '../icons/VSCode.svg'
 import Webpack from '../icons/Webpack.svg'
 import Express from '../icons/Express.svg'
 
+
 export default function Skills() {
   return <section id="skills" className="section is-small has-text-centered">
     <h1 className="title is-2">Skills</h1>
     <div className="skillsContainer">
       <div className="comfortable">
         <div className="iconWrapper">
-          <Bulma className="icon" />
-          <div className="iconLabel">Bulma</div>
+          <JavaScript className="icon" />
+          <div className="iconLabel">JavaScript</div>
         </div>
-        {/* <div className="iconWrapper">
-          <Babel />
-          <div className="iconLabel">Babel</div>
-        </div> */}
         <div className="iconWrapper">
-          <Canva className="icon" />
-          <div className="iconLabel">Canva</div>
+          <ReactIcon className="icon" />
+          <div className="iconLabel">React</div>
         </div>
-        {/* <div className="iconWrapper">
-          <CSS3 />
-          <div className="iconLabel">CSS3</div>
-        </div> */}
+        <div className="iconWrapper">
+          <HTML5 className="icon" />
+          <div className="iconLabel">HTML5</div>
+        </div>
+        <div className="iconWrapper">
+          <Nodejs className="icon" />
+          <div className="iconLabel">Node.js</div>
+        </div>
+        <div className="iconWrapper">
+          <Python className="icon" />
+          <div className="iconLabel">Python</div>
+        </div>
+        <div className="iconWrapper">
+          <Babel className="icon"/>
+          <div className="iconLabel">Babel</div>
+        </div>
+        <div className="iconWrapper">
+          <Git className="icon" />
+          <div className="iconLabel">Git</div>
+        </div>
+        {/* //! row 2 */}
+      </div>
+      <div className="beginner">
+        <div className="iconWrapper">
+          <MongoDB className="icon" />
+          <div className="iconLabel">MongoDB</div>
+        </div>
         <div className="iconWrapper">
           <Flask className="icon" />
           <div className="iconLabel">Flask</div>
         </div>
         <div className="iconWrapper">
-          <Git className="icon" />
-          <div className="iconLabel">Git</div>
+          <Webpack className="icon" />
+          <div className="iconLabel">Webpack</div>
         </div>
         <div className="iconWrapper">
           <GitHub className="icon" />
@@ -60,32 +85,13 @@ export default function Skills() {
           <Heroku className="icon" />
           <div className="iconLabel">Heroku</div>
         </div>
-        {/* //! row 2 */}
-      </div>
-      <div className="beginner">
         <div className="iconWrapper">
-          <HTML5 className="icon" />
-          <div className="iconLabel">HTML5</div>
+          <Bulma className="icon" />
+          <div className="iconLabel">Bulma</div>
         </div>
         <div className="iconWrapper">
-          <JavaScript className="icon" />
-          <div className="iconLabel">JavaScript</div>
-        </div>
-        <div className="iconWrapper">
-          <Marshmallow className="icon" />
-          <div className="iconLabel">Marshmallow</div>
-        </div>
-        <div className="iconWrapper">
-          <MongoDB className="icon" />
-          <div className="iconLabel">MongoDB</div>
-        </div>
-        <div className="iconWrapper">
-          <MySQL className="icon" />
-          <div className="iconLabel">MySQL</div>
-        </div>
-        <div className="iconWrapper">
-          <Nodejs className="icon" />
-          <div className="iconLabel">Node.js</div>
+          <CSS3 className="icon" />
+          <div className="iconLabel">CSS3</div>
         </div>
         {/* //!row 3 */}
       </div>
@@ -99,14 +105,6 @@ export default function Skills() {
           <div className="iconLabel">Npm</div>
         </div>
         <div className="iconWrapper">
-          <Python className="icon" />
-          <div className="iconLabel">Python</div>
-        </div>
-        <div className="iconWrapper">
-          <ReactIcon className="icon" />
-          <div className="iconLabel">React</div>
-        </div>
-        <div className="iconWrapper">
           <Sass className="icon" />
           <div className="iconLabel">Sass</div>
         </div>
@@ -115,12 +113,12 @@ export default function Skills() {
           <div className="iconLabel"></div>
         </div>
         <div className="iconWrapper">
-          <Webpack className="icon" />
-          <div className="iconLabel">Webpack</div>
-        </div>
-        <div className="iconWrapper">
           <Express className="icon" />
           <div className="iconLabel">Express</div>
+        </div>
+        <div className="iconWrapper">
+          <Canva className="icon" />
+          <div className="iconLabel">Canva</div>
         </div>
       </div>
     </div>
