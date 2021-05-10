@@ -4,13 +4,22 @@
   color: white;
 }
 
-#about, #skills, #projects {
-  background: black;
+body {
+  background-image: linear-gradient(to right bottom, #cd89fd, #bf99ff, #b5a6ff, #afb2fe, #aebcf8, #a6c5fa, #a3cef9, #a4d5f7, #99dff8, #94e8f5, #97efed, #a3f6e2);
+  position: relative;
+}
+
+#about, #projects {
   font-size: 1.5em;
   margin-bottom: 0;
 }
-.footer, #interests {
-  background: black;
+// .footer {
+//   background: black;
+// }
+
+#squiggle {
+  height: 100px;
+  width: 100px;
 }
 
 //!Home 
@@ -20,17 +29,18 @@
 
 }
 
-.hero-body {
-  background: black;
-  background-image: url('https://github.com/kate1562/portfolio/blob/8c4cf89c86270b5e28c3fc8830b55d9d421a638f/waves.png?raw=true');
-  background-repeat:no-repeat;
+.hero-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
 #heroTitle{
-  font-size: 4rem;
+  font-size: 6rem;
 }
 
 #heroSubtitle {
-  font-size: 2rem;
+  font-size: 1.75rem;
 }
 
 .button:hover{
@@ -39,18 +49,23 @@
 
 //! About
 #profile{
-  width: 70%;
-  box-shadow: 5px 10px #ff66c4;
+  width: 65%;
+  // box-shadow: 5px 10px #ff66c4;
+  border-radius: 50%;
 }
 
 .keyword {
-  color: #ff66c4;
+  font-weight: bold;
+  color: #a3f6e2;
 }
 
 .profileImgContainer {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: center;
+}
+
+.aboutTextImgContainer{
+  margin-bottom: 50px;
 }
 
 //! Interests
@@ -78,9 +93,9 @@
 }
 
 //!Contact
-#contact {
-  background: black;
-}
+// #contact {
+//   // background: black;
+// }
 
 .gradient {
   background: linear-gradient(#ff66c4, #5271ff);
@@ -106,50 +121,47 @@
 //! Navbar 
 
 .navbar-item {
-  color: white;
-  background: #0a0a0a;
+  color: rgb(3, 3, 3);
+  // background: #0a0a0a;
   text-transform: uppercase;
-  border: white solid 3px;
+  // border: white solid 3px;
   letter-spacing: 0.5em;
   font-family: 'Montserrat', sans-serif;
 }
 
-#navItemAbout:focus, #navItemAbout:hover {
-  color: #fff066;
-  background: #0a0a0a;
+.navbar-menu, .navbar {
+  background: transparent;
 }
 
-#navItemHello:focus, #navItemHello:hover {
-  color: #5271ff;
-  background: #0a0a0a;
+.navbar-item {
+  color: white;
 }
 
-#navItemWork:focus, #navItemWork:hover{
-  color: #ff66c4;
-  background: #0a0a0a;
+.navbar-burger span{
+  background-color: white;
 }
 
-#navItemHome:focus, #navItemHome:hover, #navItemHome {
-  background: #0a0a0a;
-  border: 0;
-}
-
-.navbar {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 15px;
+a.navbar-item:focus, a.navbar-item:hover {
+  color:grey;
+  background-color: transparent;
 }
 
 //! Skills
 
 .icon{
-  height: 7.5rem;
-  width: 4.5rem;
+  color: #614178;
+  // font-size: 3rem;
+  // size: 6em;
+  // size: 4em!important;
+  // font-size: 6em;
+  // size: 3em!important;
+  width: 3em;
+  height: 3em;
 }
 
 .icon:hover {
-  filter: brightness(0.2);
+  // filter: brightness(0.2);
+  color: #706578
 }
 
 .icon:hover ~ .iconLabel {
@@ -161,6 +173,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 30px;
 }
 
 .iconLabel{
@@ -170,14 +183,12 @@
   opacity: 0;
 }
 
-.skillsContainer {
+#skillsContainer {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 30px;
 }
 
-.comfortable, .beginner, .learning {
-  display: flex;
-  justify-content: space-evenly;
-}
 
 //! Footer

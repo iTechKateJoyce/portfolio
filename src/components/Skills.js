@@ -1,9 +1,6 @@
 import React from 'react'
-
-
 // import { Icon, InlineIcon } from '@iconify/react';
 // import fileTypeBabel2 from '@iconify-icons/vscode-icons/file-type-babel2';
-
 
 import Babel from '../icons/Babel.svg'
 import Bulma from '../icons/Bulma.svg'
@@ -35,27 +32,27 @@ export default function Skills() {
     <div className="skillsContainer">
       <div className="comfortable">
         <div className="iconWrapper">
-          <JavaScript className="icon" />
+          {/* <JavaScript className="icon" /> */}
           <div className="iconLabel">JavaScript</div>
         </div>
         <div className="iconWrapper">
-          <ReactIcon className="icon" />
+          {/* <ReactIcon className="icon" /> */}
           <div className="iconLabel">React</div>
         </div>
         <div className="iconWrapper">
-          <HTML5 className="icon" />
+          {/* <HTML5 className="icon" /> */}
           <div className="iconLabel">HTML5</div>
         </div>
         <div className="iconWrapper">
-          <Nodejs className="icon" />
+          {/* <Nodejs className="icon" /> */}
           <div className="iconLabel">Node.js</div>
         </div>
         <div className="iconWrapper">
-          <Python className="icon" />
+          {/* <Python className="icon" /> */}
           <div className="iconLabel">Python</div>
         </div>
         <div className="iconWrapper">
-          <Babel className="icon"/>
+          {/* <Babel className="icon"/> */}
           <div className="iconLabel">Babel</div>
         </div>
         <div className="iconWrapper">
@@ -66,42 +63,42 @@ export default function Skills() {
       </div>
       <div className="beginner">
         <div className="iconWrapper">
-          <MongoDB className="icon" />
+          {/* <MongoDB className="icon" /> */}
           <div className="iconLabel">MongoDB</div>
         </div>
         <div className="iconWrapper">
-          <Flask className="icon" />
+          {/* <Flask className="icon" /> */}
           <div className="iconLabel">Flask</div>
         </div>
         <div className="iconWrapper">
-          <Webpack className="icon" />
+          {/* <Webpack className="icon" /> */}
           <div className="iconLabel">Webpack</div>
         </div>
         <div className="iconWrapper">
-          <GitHub className="icon" />
+          {/* <GitHub className="icon" /> */}
           <div className="iconLabel">GitHub</div>
         </div>
         <div className="iconWrapper">
-          <Heroku className="icon" />
+          {/* <Heroku className="icon" /> */}
           <div className="iconLabel">Heroku</div>
         </div>
         <div className="iconWrapper">
-          <Bulma className="icon" />
+          {/* <Bulma className="icon" /> */}
           <div className="iconLabel">Bulma</div>
         </div>
         <div className="iconWrapper">
-          <CSS3 className="icon" />
+          {/* <CSS3 className="icon" /> */}
           <div className="iconLabel">CSS3</div>
         </div>
         {/* //!row 3 */}
       </div>
       <div className="learning">
         <div className="iconWrapper">
-          <PostgreSQL className="icon" />
+          {/* <PostgreSQL className="icon" /> */}
           <div className="iconLabel">PostgreSQL</div>
         </div>
         <div className="iconWrapper">
-          <Npm className="icon" />
+          {/* <Npm className="icon" /> */}
           <div className="iconLabel">Npm</div>
         </div>
         <div className="iconWrapper">

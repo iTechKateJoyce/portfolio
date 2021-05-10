@@ -6,13 +6,13 @@ import Skills from './Skills'
 export default function Home() {
   return <main>
     <header>
-      <section className="hero is-fullheight">
+      <section className="hero is-fullheight has-text-centered">
         <div className="hero-body">
           <div className="">
-            <h1 id="heroTitle" className="title has-text-white">Hi, I'm Kate 👋</h1>
-            <h2 id="heroSubtitle" className="subtitle hero has-text-light">a London-based junior developer</h2>
-            <a href={"#projects"} className="button mr-1" >View Work</a>
-            <a href={"#contact"} className="button">Reach out</a>
+            <h1 id="heroTitle" className="title has-text-white">Kate Joyce</h1>
+            <h2 id="heroSubtitle" className="subtitle hero has-text-light">FULL STACK JUNIOR DEVELOPER</h2>
+            {/* <a href={"#projects"} className="button mr-1" >View Work</a>
+            <a href={"#contact"} className="button">Reach out</a> */}
           </div>
         </div>
       </section>
