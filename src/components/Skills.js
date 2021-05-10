@@ -110,7 +110,7 @@ export default function Skills() {
         </div>
         <div className="iconWrapper">
           <VSCode className="icon" />
-          <div className="iconLabel"></div>
+          <div className="iconLabel">VSCode</div>
         </div>
         <div className="iconWrapper">
           <Express className="icon" />

@@ -11,7 +11,7 @@ export default function Projects() {
     <section id="dreamland" className="section is-small columns">
       <div className="column is-half">
         <h2 className="subtitle is-3">DREAMLAND: FESTIVAL APP</h2>
-        <a href="http://dreamland-festival-app.herokuapp.com/" target="blank">🔗 See it live</a>
+        <a className="liveProjects" href="http://dreamland-festival-app.herokuapp.com/" target="blank">🔗 See it live</a>
         <br />
         <a href="https://github.com/kate1562/project-4-dreamland" target="blank">📖 GitHub repo</a>
         <br />
@@ -29,7 +29,7 @@ export default function Projects() {
     <section id="hack-a-snack" className="section is-small columns is-vcentered">
       <div className="column is-half">
         <h2 className="subtitle is-3">HACK-A-SNACK: RECIPE COLLECTION</h2>
-        <a href="http://hack-a-snack-project.herokuapp.com/" target="blank">🔗 See it live</a>
+        <a className="liveProjects" href="http://hack-a-snack-project.herokuapp.com/" target="blank">🔗 See it live</a>
         <br />
         <a href="https://github.com/kate1562/project-3" target="blank">📖 GitHub repo</a>
         <br />
@@ -47,7 +47,7 @@ export default function Projects() {
     <section id="insbaration" className="section columns is-vcentered">
       <div className="column is-half">
         <h2 className="subtitle is-3">INSBARATION: COCKTAIL CLUB</h2>
-        <a href="https://kate1562.github.io/project-2/" target="blank">🔗 See it live</a>
+        <a className="liveProjects" href="https://kate1562.github.io/project-2/" target="blank">🔗 See it live</a>
         <br />
         <a href="https://github.com/kate1562/project-2" target="blank">📖 GitHub repo</a>
         <br />
@@ -65,7 +65,7 @@ export default function Projects() {
     <section id="frogger" className="section columns is-vcentered">
       <div className="column is-half">
         <h2 className="subtitle is-3">FROGGER: CLASSIC GRID GAME</h2>
-        <a href="https://kate1562.github.io/project-1/" target="blank">🔗 See it live</a>
+        <a className="liveProjects" href="https://kate1562.github.io/project-1/" target="blank">🔗 See it live</a>
         <br />
         <a href="https://bit.ly/frogger-readme" target="blank">📖 GitHub repo</a>
         <br />
