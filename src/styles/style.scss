@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: linear-gradient(to right bottom, #cd89fd, #bf99ff, #b5a6ff, #afb2fe, #aebcf8, #a6c5fa, #a3cef9, #a4d5f7, #99dff8, #94e8f5, #97efed, #a3f6e2);
+  background-image: linear-gradient(to right bottom, #4568dc, #7266d2, #8e66c8, #a267bd, #b06ab3);
   position: relative;
 }
 
@@ -25,7 +25,7 @@ body {
 //!Home 
 .button {
   background: transparent;
-  color: white;
+  color: #4D4352;
 
 }
 
@@ -43,9 +43,9 @@ body {
   font-size: 1.75rem;
 }
 
-.button:hover{
-  color: white;
-}
+// .button:hover{
+//   color: white;
+// }
 
 //! About
 #profile{
@@ -200,13 +200,13 @@ a.navbar-item:focus, a.navbar-item:hover {
 //! Skills
 
 .icon{
-  color: #6604aa;
+  color: #EEEDFF;
   width: 3em;
   height: 3em;
 }
 
 .icon:hover {
-  color: #706578
+  color: #846796
 }
 
 .icon:hover ~ .iconLabel {

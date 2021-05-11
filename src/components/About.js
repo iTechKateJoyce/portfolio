@@ -18,7 +18,7 @@ export default function About() {
       </div>
       <div className="aboutTextImgContainer">
         {/* about: text and image container  */}
-        <div className="columns has-text-light is-vcentered is-centered">
+        <div className="columns has-text-white is-vcentered is-centered">
           <div className="column is-two-thirds">
             <p>Hi 👋  I'm Kate. I'm a recent grad from General Assembly's Software Engineering Immersive bootcamp currently seeking my first junior developer role. </p>
             <br />
@@ -34,7 +34,7 @@ export default function About() {
       </div>
       <div className="has-text-centered mt-3">
         {/* about: button and interest section container  */}
-        <button onClick={() => showInterests(!interests)} className="button has-text-light mb-4" >Tell me more</button>
+        <button onClick={() => showInterests(!interests)} className="button has-text-white mb-4" >Tell me more</button>
       </div>
       <div style={{ display: interests ? '' : 'none' }} >
         <Interests />
