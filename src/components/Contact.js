@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
-import { Link } from 'react-router-dom'
+import contactImg from '../images/contactImg.png'
+// import { Link } from 'react-router-dom'
 import emailjs from 'emailjs-com';
 import github_logo from '../images/github_logo.png'
 import linkedin_logo from '../images/linkedin_logo.png'
@@ -26,14 +27,14 @@ export default function Contact() {
 
   return <section id="contact" className="section is-small">
     <div className="columns px-6">
-      <div className="column gradient is-flex-direction-column">
+      <div className="column contactImg is-flex-direction-column">
         <h1 className="title is-1 has-text-white">Let's</h1>
         <h1 className="title is-1 has-text-white">Chat</h1>
         <div className="logos is-flex">
-          <a href="https://www.linkedin.com/in/kate-joyce/" target="_blank">
+          <a href="https://www.linkedin.com/in/kate-joyce/" target="blank">
             <img className="contactIcon" src={linkedin_logo} />
           </a>
-          <a href="https://github.com/kate1562" target="_blank">
+          <a href="https://github.com/kate1562" target="blank">
             <img className="contactIcon" src={github_logo} />
           </a>
 
