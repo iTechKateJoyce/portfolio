@@ -87,9 +87,19 @@ body {
   height: 450px;
 }
 
-.appImage {
-  display: flex;
-  justify-content: center;
+// .appImage {
+//   display: flex;
+//   justify-content: center;
+// }
+
+#dreamland{
+  background-color: white;
+}
+
+.projectRule{
+  border-top: dotted #cd89fd;
+  width: 50%
+
 }
 
 //!Contact
@@ -150,17 +160,11 @@ a.navbar-item:focus, a.navbar-item:hover {
 
 .icon{
   color: #614178;
-  // font-size: 3rem;
-  // size: 6em;
-  // size: 4em!important;
-  // font-size: 6em;
-  // size: 3em!important;
   width: 3em;
   height: 3em;
 }
 
 .icon:hover {
-  // filter: brightness(0.2);
   color: #706578
 }
 
