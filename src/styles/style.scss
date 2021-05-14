@@ -1,4 +1,3 @@
-
 //! General
 .title, .subtitle {
   color: white;
@@ -52,11 +51,12 @@ body {
   width: 65%;
   // box-shadow: 5px 10px #ff66c4;
   border-radius: 50%;
+  display: block;
 }
 
 .keyword {
   font-weight: bold;
-  color: #a3f6e2;
+  color: #ffce1f;
 }
 
 .profileImgContainer {
@@ -85,6 +85,10 @@ body {
 
 .dreamlandMobile {
   height: 550px;
+}
+
+.sliderStyle{
+
 }
 
 // .appImage {
@@ -143,11 +147,6 @@ body {
 // #contact {
 //   // background: black;
 // }
-
-.gradient {
-  background-image: url('');
-  padding: 30px;
-}
 
 .form {
   background: white;
