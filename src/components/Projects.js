@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 import Squiggle from '../images/squiggle.svg'
 import { SiGithub } from 'react-icons/si'
 import { FaRocket } from 'react-icons/fa'
