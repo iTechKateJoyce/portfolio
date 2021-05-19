@@ -49,7 +49,7 @@ export default function Projects() {
     }
   ]
 
-  return <section id="projects">
+  return <section id="projects" className="section">
     <div>
       <h1 className="has-text-white has-text-centered title is-1">PROJECTS</h1>
     </div>
