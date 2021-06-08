@@ -54,7 +54,7 @@ export default function Projects() {
         <div className="column card-content is-three-fifths pt-0">
           <hr className="projectRule" />
           <div className="has-text-justified projectSpiel">
-            <p>Hack-a-snack is a full stack MERN app built with React JS, Node.js, Express, Mongoose and talking to a NoSQL MongoDB database. The Edamam API was used to seed initial data and it was deployed via Heroku.</p>
+            <p>Hack-a-snack is a full stack MERN app built with React.js, Node.js, Express, Mongoose and talking to a NoSQL MongoDB database. The Edamam API was used to seed initial data and it was deployed via Heroku.</p>
             <br />
             <p>The site operates as an online recipe collection, users can browse, search, review, save and post recipes. I built out the recipes backend and user profile frontend which made use of React Slick slider library.</p>
             <br />
@@ -93,7 +93,7 @@ export default function Projects() {
           <div className="has-text-justified projectSpiel">
             <p>Insbaration was the second project completed as part of the GA Software Engineering Immersive course and my first application built with React. We had 48 hours to pair program using a liveshare code editing extension and the driver/navigator technique to take turns in each role.</p>
             <br />
-            <p>The program allows users to browse 100 cocktail recipes by base alcohol, or if they can't decide, gives them a random cocktail to try. We used the cocktailDB API to seed our data and deployed on GitHub pages.</p>
+            <p>The program allows users to browse 100 cocktail recipes by base alcohol, or if they cannot decide, gives them a random cocktail to try. We used the cocktailDB API to seed our data and deployed on GitHub pages.</p>
             <br />
           </div>
           <div className="is-flex-direction-column">
@@ -121,7 +121,7 @@ export default function Projects() {
         <div className="column card-content is-three-fifths pt-0">
           <hr className="projectRule" />
           <div className="has-text-justified projectSpiel">
-            <p>Frogger was the very first project as part of the GA software Engineering immersive course built using Vanilla JS, HTML and CSS. We were tasked to re-create a classic grid game over the course of a week as a solo project, at this point we'd studied JavaScript for two weeks.</p>
+            <p>Frogger was the very first project as part of the GA software Engineering immersive course built using Vanilla JS, HTML and CSS. We were tasked to re-create a classic grid game over the course of a week as a solo project, at this point we had studied JavaScript for two weeks.</p>
             <br />
             <p>The functionality of the game includes automated moving elements, collision detection, timers and player movement logic.</p>
             <br />
@@ -147,6 +147,5 @@ export default function Projects() {
         </div>
       </div>
     </section>
-
   </section >
 }
