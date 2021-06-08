@@ -26,20 +26,20 @@ export default function Projects() {
       <div className="column card-content is-two-thirds has-text-justified projectSpiel">
         <h2 className="projectTitle title is-2">DREAMLAND: FESTIVAL APP</h2>
         <hr className="projectRule" />
-        <p>Dreamland is a full stack MERN app formed of a Python backend and mobile first React frontend. Users can view the festival line up, create their personal schedule and place bar orders. Trello was used to manage technical tickets and Balsamiq to further cement our understanding and wireframe the design.</p>
+        <p>Dreamland is a full stack app formed of a Python backend and mobile first React frontend. Users can view the festival line up, create their personal schedule and place bar orders. Trello was used to manage technical tickets and Balsamiq to further cement our understanding and wireframe the design.</p>
         <br />
         <p>In order to gain experience working across the full stack I built backend models, views, controllers and frontend features for the lineup and menu ordering systems.</p>
         <br />
         <div className="is-flex-direction-column">
           <div className="is-flex">
-            <a href="https:github.com/kate1562/project-4-dreamland" target="blank">
+            <a href="https://github.com/kate1562/project-4-dreamland" rel="noreferrer" target="_blank">
               <SiGithub className="projectLink" />
             </a>
             <p className="linkLabel">See my approach</p>
           </div>
           <br />
           <div className="is-flex">
-            <a href="http:dreamland-festival-app.herokuapp.com/" target="blank">
+            <a href="http://dreamland-festival-app.herokuapp.com/" rel="noreferrer" target="_blank">
               <FaRocket className="projectLink" />
             </a>
             <p className="linkLabel">See it live</p>
@@ -61,14 +61,14 @@ export default function Projects() {
           </div>
           <div className="is-flex-direction-column">
             <div className="is-flex">
-              <a href="https:github.com/kate1562/project-3" target="blank">
+              <a href="https:github.com/kate1562/project-3" rel="noreferrer" target="_blank">
                 <SiGithub className="projectLink" />
               </a>
               <p className="linkLabel">See my approach</p>
             </div>
             <br />
             <div className="is-flex">
-              <a href="http:hack-a-snack-project.herokuapp.com/" target="blank">
+              <a href="http://hack-a-snack-project.herokuapp.com/" rel="noreferrer" target="_blank">
                 <FaRocket className="projectLink" />
               </a>
               <p className="linkLabel">See it live</p>
@@ -98,14 +98,14 @@ export default function Projects() {
           </div>
           <div className="is-flex-direction-column">
             <div className="is-flex">
-              <a href="https:github.com/kate1562/project-2" target="blank">
+              <a href="https:github.com/kate1562/project-2" rel="noreferrer" target="_blank">
                 <SiGithub className="projectLink" />
               </a>
               <p className="linkLabel">See my approach</p>
             </div>
             <br />
             <div className="is-flex">
-              <a href="https:kate1562.github.io/project-2/" target="blank">
+              <a href="https:kate1562.github.io/project-2/" rel="noreferrer" target="_blank">
                 <FaRocket className="projectLink" />
               </a>
               <p className="linkLabel">See it live</p>
@@ -128,14 +128,14 @@ export default function Projects() {
           </div>
           <div className="is-flex-direction-column">
             <div className="is-flex">
-              <a href="https:bit.ly/frogger-readme" target="blank">
+              <a href="https:bit.ly/frogger-readme" rel="noreferrer" target="_blank">
                 <SiGithub className="projectLink" />
               </a>
               <p className="linkLabel">See my approach</p>
             </div>
             <br />
             <div className="is-flex">
-              <a href="https:kate1562.github.io/project-1/" target="blank">
+              <a href="https:kate1562.github.io/project-1/" rel="noreferrer" target="_blank">
                 <FaRocket className="projectLink" />
               </a>
               <p className="linkLabel">See it live</p>
