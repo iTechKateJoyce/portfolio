@@ -32,7 +32,7 @@ export default function Projects() {
         <br />
         <div className="is-flex-direction-column">
           <div className="is-flex">
-            <a href="https://github.com/kate1562/project-4-dreamland" rel="noreferrer" target="_blank">
+            <a href="http://dreamland-festival-app.herokuapp.com/" rel="noreferrer" target="_blank">
               <SiGithub className="projectLink" />
             </a>
             <p className="linkLabel">See my approach</p>
@@ -61,7 +61,7 @@ export default function Projects() {
           </div>
           <div className="is-flex-direction-column">
             <div className="is-flex">
-              <a href="https:github.com/kate1562/project-3" rel="noreferrer" target="_blank">
+              <a href="https://github.com/kate1562/project-3" rel="noreferrer" target="_blank">
                 <SiGithub className="projectLink" />
               </a>
               <p className="linkLabel">See my approach</p>
@@ -98,14 +98,14 @@ export default function Projects() {
           </div>
           <div className="is-flex-direction-column">
             <div className="is-flex">
-              <a href="https:github.com/kate1562/project-2" rel="noreferrer" target="_blank">
+              <a href="https://github.com/kate1562/project-2" rel="noreferrer" target="_blank">
                 <SiGithub className="projectLink" />
               </a>
               <p className="linkLabel">See my approach</p>
             </div>
             <br />
             <div className="is-flex">
-              <a href="https:kate1562.github.io/project-2/" rel="noreferrer" target="_blank">
+              <a href="https://kate1562.github.io/project-2/" rel="noreferrer" target="_blank">
                 <FaRocket className="projectLink" />
               </a>
               <p className="linkLabel">See it live</p>
@@ -128,14 +128,14 @@ export default function Projects() {
           </div>
           <div className="is-flex-direction-column">
             <div className="is-flex">
-              <a href="https:bit.ly/frogger-readme" rel="noreferrer" target="_blank">
+              <a href="https://github.com/kate1562/project-1/blob/main/README.md" rel="noreferrer" target="_blank">
                 <SiGithub className="projectLink" />
               </a>
               <p className="linkLabel">See my approach</p>
             </div>
             <br />
             <div className="is-flex">
-              <a href="https:kate1562.github.io/project-1/" rel="noreferrer" target="_blank">
+              <a href="https://kate1562.github.io/project-1/" rel="noreferrer" target="_blank">
                 <FaRocket className="projectLink" />
               </a>
               <p className="linkLabel">See it live</p>
