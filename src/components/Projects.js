@@ -26,7 +26,7 @@ export default function Projects() {
       <div className="column card-content is-two-thirds has-text-justified projectSpiel">
         <h2 className="projectTitle title is-2">DREAMLAND: FESTIVAL APP</h2>
         <hr className="projectRule" />
-        <p>Dreamland is a full stack app formed of a Python backend and mobile first React frontend. Users can view the festival line up, create their personal schedule and place bar orders. Trello was used to manage technical tickets and Balsamiq to further cement our understanding and wireframe the design.</p>
+        <p>Dreamland is a mobile first, full stack app formed of a React.js frontend and a Python/Flask backend talking to a PostreSQL database. Users can view the festival line up, create their personal schedule, place bar orders and view real-time status updates. Trello was used to manage technical tickets and Balsamiq to wireframe the design.</p>
         <br />
         <p>In order to gain experience working across the full stack I built backend models, views, controllers and frontend features for the lineup and menu ordering systems.</p>
         <br />
